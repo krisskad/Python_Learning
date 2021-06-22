@@ -25,5 +25,9 @@ class A:
 print(A.__dict__)
 print(A.__doc__)
 print(A.__init__)
+
+# It will print all the methods are available within class, some of methods are by default and some can be user defined
 print(dir(A))
+
+# It will print help doc
 print(help(A))
